@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+}
+
+body{
+  /*background-color: #3f3f44;*/
+  font-family: 'Caveat', cursive;
+  /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIbgNPXaW_T3P4oqo6R5sJRu9xbN1BQWx3jA&usqp=CAU");*/
+  background-image: url('images.png');
+}
+
+footer{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 200%;
+  color: #f4e04d;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#heading{
+  text-shadow: 5px 5px black; /*#32e0c4;*/
+  font-size: 750%;
+  color: #900c3f;
+}
+
+.Dice_1{
+  display: inline-block;
+}
+
+.Dice_2{
+  display: inline-block;
+}
+
+.Player1{
+  font-size: 250%;
+  color: #f4e04d;
+  margin: 20px 0 20px 0;
+  font-family: 'Sacramento', cursive;
+}
+
+.Player2{
+  font-size: 250%;
+  color: #f4e04d;
+  margin: 20px 0 20px 0;
+  font-family: 'Sacramento', cursive;
+}
+
+.img1{
+  width: 80%;
+}
+
+.img2{
+  width: 80%;
+}
+
+.burger{
+  text-align: center;
+}
+
+.play{
+  margin: 40px 40px;
+}
+
+.btn{
+  width: 200px;
+  height: 60px;
+  background: none;
+  border: 4px solid;
+  color: #04e0de;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  border-radius: 28px;
+}
+
+.btn::before, .btn::after{
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  background: #641e1c;
+  transform: skewX(50deg);
+  transition: .4s linear;
+}
+
+.btn::before{
+  top: -4px;
+  left: 10%;
+}
+
+.btn::after{
+  bottom: -4px;
+  right: 10%;
+}
+
+.btn:hover::before{
+  left: 80%;
+}
+
+.btn:hover::after{
+  right: 80%;
+}
+
+.emoji{
+  width: 1%;
+}
